@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naralimp</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3">
+       <a class="navbar-brand" href="#"><img src="../img/nara-.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Naralimp</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>   
+    <div class="dropdown mt-3">
+        <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
+            Menu
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../index.html">Home</a></li>
+            <li><a class="dropdown-item" href="./Naralimp.html">Sobre</a></li>
+            <li><a class="dropdown-item" href="../pages/forms.html">Contato</a></li>
+        </ul>   
+        <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#oculto">
+            Ver imagem
+        </button>
+    
+    </div>
+    <div id="oculto" class="collapse">
+        <img src="../img/01.png" alt="">
+        <img src="../img/03.jpeg" alt="">
+        <img src="../img/05.jpeg" alt="">
+        <img src="../img/06.jpg" alt="">
+    </div>
+    <main>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide w-100 d-block m-auto bg-primary" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <link rel="stylesheet" href="style.css">
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/nara6.png" alt="NaraLimp" height="400" class="d-block w-75 m-auto">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/naralim1.png" alt="Centro Capão da Canoa" height="400" class="d-block w-75 m-auto">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/naralimp2.png" alt="New York" height="400" class="d-block w-75 m-auto">
+                </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </main><br><br>
+    <footer class="bg-primary text-white text-center p-3 mt-3 ">
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
